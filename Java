@@ -1,0 +1,45 @@
+Program:
+
+class Student {
+
+String name;
+
+int rollNumber;
+
+void setDetails(String name, int rollNumber) {
+
+this.name = name;
+
+this.rollNumber = rollNumber;
+
+}
+
+void displayDetails() {
+
+System.out.println("Name: " + name);
+
+System.out.println("Roll Number: " + rollNumber);
+
+}
+
+}
+
+public class Main {
+
+public static void main(String[] args) {
+
+Student student = new Student();
+
+student.setDetails("Ahamed", 101);
+
+student.displayDetails();
+
+}
+
+}
+
+Output:
+
+Name: Ahamed
+
+Roll Number: 101
